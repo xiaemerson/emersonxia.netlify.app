@@ -1,0 +1,20 @@
+@charset "utf-8";
+ul {
+	list-style_type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: block;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+	float: left;
+	margin: 1%;
+}
+
+h1 {
+	font-size: 30px;
+}
