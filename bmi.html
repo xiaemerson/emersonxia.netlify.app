@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--
+New Perspectives on HTML5 and CSS3, 7th Edition
+Assignment 6
+Author: Emerson Xia
+Date: 03/10/2020
+Filename: bmi.html
+-->
+
+<meta charset="UTF-8">
+<title>BMI Calculator</title>
+<link href="bmi.css" rel="stylesheet" />
+<script src="bmi.js"></script>
+</head>
+
+<body>
+<h1>BMI (Body Mass Index) Calculator</h1>
+<label for="weight">Weight(lb)</label>
+<input type="text"  id="weight" name="weight">
+<br>
+<label for="heightft">Height(ft)</label>
+<input type="text" id="heightft" name="heightft">
+<br>
+<label for="heightin">Height(in)</label>
+<input type="text" id="heightin" name="heightin"> 
+<br>
+<input type="button" value="Calculate" onClick="BMICalculate()">
+<input type="button" value="Clear" onClick="BMIClear()">
+<h2 id="msg">BMI:</h2>
+ 
+</body>
+</html>
